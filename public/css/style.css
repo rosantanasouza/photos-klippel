@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #F2B073;
+}
+
+header{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8FF;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    margin-top: 40px;
+    color: black; 
+    font-family: 'Gruppo', cursive;   
+}
+
+.icon-camera {
+    width: 70px;
+    height: 70px;
+}
+
+.apresentacao{
+    font-size: 3em;
+    margin-top: 15px; 
+    text-align: center;
+    font-family: 'Nixie One', cursive;
+    line-height: 70px;
+}
+
+.trabalhos {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+    font-family: 'Gruppo', cursive;
+}
+
+.icon-bag {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.content-grid-photos-jobs {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    gap: 1em;
+}
+
+.photos-jobs {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    transition: border-color 0.5s;    
+}
+
+.photos-jobs:hover {
+    border-color: white;
+    transform: translateY(-10px); 
+}
+
+.contatos {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+    font-family: 'Gruppo', cursive;
+}
+
+.content-contatos {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.icon-contatos {
+    width: 40px;
+    height: 40px;
+}
+
+.content-contatos a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: 'Nixie One', cursive;
+    font-weight: 800;
+    color: black;
+    background-color: #FFE7DA;
+    transition: background-color 0.5s;
+}
+
+.content-contatos a:hover {
+    background-color: #FF8F47;    
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+}
+footer hr {
+    width: 200px;
+    border: 0px;
+    height: 1px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Nixie One', cursive;
+    font-weight: 800;
+    font-size: large;
+
+}
+    
